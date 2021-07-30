@@ -1,0 +1,6 @@
+.selected-exams {
+  list-style-type: none;
+}
+.selected-exams > li:hover {
+  background-color: var(--hover);
+}
