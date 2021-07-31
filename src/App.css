@@ -2,3 +2,6 @@ main {
   max-width: 960px;
   margin: 100px auto;
 }
+.pointer {
+  cursor: pointer;
+}

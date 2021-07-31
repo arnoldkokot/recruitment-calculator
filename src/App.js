@@ -1,19 +1,19 @@
-import { ThemeProvider } from "@primer/components";
-import Navigation from "./components/Navigation.js";
-import Main from "./components/Main";
-import { store } from "./redux/store";
-import { Provider } from "react-redux";
+import "./App.css";
+import Selector from "./components/Selector";
+import Results from "./components/Results";
+import { Header } from "@primer/components";
 
 function App() {
   return (
-    <ThemeProvider>
-      <Provider store={store}>
-        <div className="App">
-          <Navigation />
-          <Main />
-        </div>
-      </Provider>
-    </ThemeProvider>
+    <div className="App">
+      <Header>
+        <Header.Item>Ostatni update 31/07/2021</Header.Item>
+      </Header>
+      <main>
+        <Results />
+        <Selector />
+      </main>
+    </div>
   );
 }
 

@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import examsReducer from "./selectedExams";
+import activeReducer from "./active";
 
 export const store = configureStore({
   reducer: {
-    selectedExams: examsReducer,
+    active: activeReducer,
   },
 });
