@@ -10,8 +10,8 @@ function App() {
         <Header.Item>Ostatni update 31/07/2021</Header.Item>
       </Header>
       <main>
-        <Results />
         <Selector />
+        <Results />
       </main>
     </div>
   );

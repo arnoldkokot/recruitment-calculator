@@ -30,9 +30,15 @@ export const counterSlice = createSlice({
       const index = state.value.findIndex(subject => subject.name === name);
       state.value[index].score = newScore;
     },
+    toggle: (state, action) => {
+      const index = state.value.findIndex(
+        subject => subject.name === action.payload
+      );
+      state.value[index].hidden = !state.value[index].hidden;
+    },
   },
 });
 
-export const { add, remove, changeScore } = counterSlice.actions;
+export const { add, remove, changeScore, toggle } = counterSlice.actions;
 
 export default counterSlice.reducer;
