@@ -1,0 +1,109 @@
+{
+  "Wydział Inżynierii Lądowej i Gospodarki Zasobami": {
+    "Budownictwo": {},
+    "Inżynieria Górnicza": {},
+    "Inżynieria i Zarządzanie Procesami Przemysłowymi": {},
+    "Inżynieria Kształtowania Środowiska": {},
+    "Rewitalizacja Terenów Zdegradowanych": {}
+  },
+  "Wydział Inżynierii Metali i Informatyki Przemysłowej": {
+    "Edukacja Techniczno-Informatyczna": {},
+    "Informatyka Techniczna": {},
+    "Inżynieria Ciepła": {},
+    "Zaawansowane Materiały Inżynierskie (sukcesor kierunku Inżynieria Materiałowa – WIMiIP)": {},
+    "Inżynieria Obliczeniowa": {},
+    "Metalurgia": {}
+  },
+  "Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej": {
+    "Automatyka i Robotyka": {},
+    "Elektrotechnika": {},
+    "Inżynieria Biomedyczna": {},
+    "Informatyka (kierunek prowadzony z WIET)": {},
+    "Informatyka i Systemy Inteligentne": {},
+    "Mikroelektronika w Technice i Medycynie": {},
+    "Computer Science (płatny, w języku angielskim, prowadzony przez WEAIiIB we współpracy z wydziałami WIEiT, WFiIS, WIMiIP)": {}
+  },
+  "Wydział Informatyki, Elektroniki i Tele­komunikacji": {
+    "Cyberbezpieczeństo": {},
+    "Elektronika": {},
+    "Elektronika i Telekomunikacja": {},
+    "Informatyka (kierunek prowadzony z WEAIiIB)": {},
+    "Informatyka – Data Science (II stopień)": {},
+    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {},
+    "Teleinformatyka": {},
+    "Electronics and Telecommunications (w języku angielskim)": {}
+  },
+  "Wydział Inżynierii Mechanicznej i Robotyki": {
+    "Automatyka Przemysłowa i Robotyka": {},
+    "Inżynieria Akustyczna": {},
+    "Inżynieria Mechaniczna i Materiałowa": {},
+    "Inżynieria Mechatroniczna": {},
+    "Mechanika i Budowa Maszyn": {},
+    "Mechatronic Engineering (w języku angielskim)": {}
+  },
+  "Wydział Geologii, Geofizyki i Ochrony Środowiska": {
+    "Ekologiczne Źródła Energii": {},
+    "Geofizyka": {},
+    "Geoinformatyka": {},
+    "Geologia Stosowana": {},
+    "Geoturystyka": {},
+    "Inżynieria i Analiza Danych": {},
+    "Inżynieria i Ochrona Środowiska": {}
+  },
+  "Wydział Geodezji Górniczej i Inżynierii Środowiska": {
+    "Geodezja i Kartografia": {},
+    "Geoinformacja": {},
+    "Inżynieria i Monitoring Środowiska": {}
+  },
+  "Wydział Inżynierii Materiałowej i Ceramiki": {
+    "Ceramika": {},
+    "Chemia Budowlana": {},
+    "Chemia w Kryminalistyce": {},
+    "Inżynieria Materiałowa": {},
+    "Nanoinżynieria Materiałów (kierunek prowadzony wspólnie przez WFiIS oraz WIMiC)": {},
+    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {},
+    "Technologia Chemiczna (kierunek prowadzony z WEiP)": {}
+  },
+  "Wydział Odlewnictwa": {
+    "Inżynieria Procesów Odlewniczych": {},
+    "Komputerowe Wspomaganie Procesów Inżynierskich": {},
+    "Tworzywa i Technologie Motoryzacyjne": {}
+  },
+  "Wydział Metali Nieżelaznych": {
+    "Inżynieria Metali Nieżelaznych": {},
+    "Inżynieria Produkcji i Jakości": {},
+    "Recykling i Metalurgia": {}
+  },
+  "Wydział Wiertnictwa, Nafty i Gazu": {
+    "Geoinżynieria i Górnictwo Otworowe": {},
+    "Inżynieria Naftowa i Gazownicza": {},
+    "Inżynieria Naftowa i Gazownicza – profil praktyczny (studia dualne)": {}
+  },
+  "Wydział Zarządzania": {
+    "Informatyka i Ekonometria": {},
+    "Zarządzanie": {},
+    "Zarządzanie i Inżynieria Produkcji": {}
+  },
+  "Wydział Energetyki i Paliw": {
+    "Energetyka": {},
+    "Energetyka Odnawialna i Zarządzanie Energią": {},
+    "Nowoczesne Technologie Paliwowe": {},
+    "Technologia Chemiczna (kierunek prowadzony z WIMiC)": {}
+  },
+  "Wydział Fizyki i Informatyki Stosowanej": {
+    "Fizyka Medyczna": {},
+    "Fizyka Techniczna": {},
+    "Informatyka Stosowana": {},
+    "Mikro- i Nanotechnologie w Biofizyce": {},
+    "Nanoinżynieria Materiałów (kierunek prowadzony wspólnie przez WFiIS oraz WIMiC)": {}
+  },
+  "Wydział Matematyki Stosowanej": {
+    "Matematyka": {}
+  },
+  "Wydział Humanistyczny": {
+    "Informatyka Społeczna": {},
+    "Kulturoznawstwo": {},
+    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {},
+    "Socjologia": {}
+  }
+}

@@ -11,6 +11,7 @@ export default function Selector() {
       borderWidth={1}
       borderStyle="solid"
       borderRadius={2}
+      mb={5}
     >
       <Box
         display="flex"
