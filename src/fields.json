@@ -1,109 +1,316 @@
 {
   "Wydział Inżynierii Lądowej i Gospodarki Zasobami": {
-    "Budownictwo": {},
-    "Inżynieria Górnicza": {},
-    "Inżynieria i Zarządzanie Procesami Przemysłowymi": {},
-    "Inżynieria Kształtowania Środowiska": {},
-    "Rewitalizacja Terenów Zdegradowanych": {}
+    "Budownictwo": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Język obcy"]
+    },
+    "Inżynieria Górnicza": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Geografia", "Język obcy" ]
+    },
+    "Inżynieria i Zarządzanie Procesami Przemysłowymi": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Język obcy"]
+    },
+    "Inżynieria Kształtowania Środowiska": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy", "Geografia"] 
+    },
+    "Rewitalizacja Terenów Zdegradowanych": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy", "Geografia"] 
+    }
   },
   "Wydział Inżynierii Metali i Informatyki Przemysłowej": {
-    "Edukacja Techniczno-Informatyczna": {},
-    "Informatyka Techniczna": {},
-    "Inżynieria Ciepła": {},
-    "Zaawansowane Materiały Inżynierskie (sukcesor kierunku Inżynieria Materiałowa – WIMiIP)": {},
-    "Inżynieria Obliczeniowa": {},
-    "Metalurgia": {}
+    "Edukacja Techniczno-Informatyczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Informatyka Techniczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Inżynieria Ciepła": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Język obcy"] 
+    },
+    "Zaawansowane Materiały Inżynierskie (sukcesor kierunku Inżynieria Materiałowa – WIMiIP)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy"]
+    },
+    "Inżynieria Obliczeniowa": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"] 
+    },
+    "Metalurgia": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    }
   },
   "Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej": {
-    "Automatyka i Robotyka": {},
-    "Elektrotechnika": {},
-    "Inżynieria Biomedyczna": {},
-    "Informatyka (kierunek prowadzony z WIET)": {},
-    "Informatyka i Systemy Inteligentne": {},
-    "Mikroelektronika w Technice i Medycynie": {},
-    "Computer Science (płatny, w języku angielskim, prowadzony przez WEAIiIB we współpracy z wydziałami WIEiT, WFiIS, WIMiIP)": {}
+    "Automatyka i Robotyka": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Elektrotechnika": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Inżynieria Biomedyczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"] 
+    },
+    "Informatyka (kierunek prowadzony z WIET)": { 
+      "g1": ["Matematyka rozszerzona"], 
+      "g2": ["Fizyka", "Informatyka"] 
+    },
+    "Informatyka i Systemy Inteligentne": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Mikroelektronika w Technice i Medycynie": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Computer Science (płatny, w języku angielskim, prowadzony przez WEAIiIB we współpracy z wydziałami WIEiT, WFiIS, WIMiIP)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"]
+    }
   },
   "Wydział Informatyki, Elektroniki i Tele­komunikacji": {
-    "Cyberbezpieczeństo": {},
-    "Elektronika": {},
-    "Elektronika i Telekomunikacja": {},
-    "Informatyka (kierunek prowadzony z WEAIiIB)": {},
-    "Informatyka – Data Science (II stopień)": {},
-    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {},
-    "Teleinformatyka": {},
-    "Electronics and Telecommunications (w języku angielskim)": {}
+    "Cyberbezpieczeństwo": { 
+      "g1": ["Matematyka rozszerzona"], 
+      "g2": ["Fizyka", "Informatyka"] 
+    },
+    "Elektronika": { 
+      "g1": ["Matematyka rozszerzona"], 
+      "g2": ["Fizyka", "Informatyka"] 
+    },
+    "Elektronika i Telekomunikacja": { 
+      "g1": ["Matematyka rozszerzona"], 
+      "g2": ["Fizyka", "Informatyka"] 
+    },
+    "Informatyka (kierunek prowadzony z WEAIiIB)": { 
+      "g1": ["Matematyka rozszerzona"], 
+      "g2": ["Fizyka", "Informatyka"] 
+    },
+    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"]
+    },
+    "Teleinformatyka": { 
+      "g1": ["Matematyka rozszerzona"], 
+      "g2": ["Fizyka", "Informatyka"] 
+    }
   },
   "Wydział Inżynierii Mechanicznej i Robotyki": {
-    "Automatyka Przemysłowa i Robotyka": {},
-    "Inżynieria Akustyczna": {},
-    "Inżynieria Mechaniczna i Materiałowa": {},
-    "Inżynieria Mechatroniczna": {},
-    "Mechanika i Budowa Maszyn": {},
-    "Mechatronic Engineering (w języku angielskim)": {}
+    "Automatyka Przemysłowa i Robotyka": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Inżynieria Akustyczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Inżynieria Mechaniczna i Materiałowa": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"] 
+    },
+    "Inżynieria Mechatroniczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Mechanika i Budowa Maszyn": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    }
   },
   "Wydział Geologii, Geofizyki i Ochrony Środowiska": {
-    "Ekologiczne Źródła Energii": {},
-    "Geofizyka": {},
-    "Geoinformatyka": {},
-    "Geologia Stosowana": {},
-    "Geoturystyka": {},
-    "Inżynieria i Analiza Danych": {},
-    "Inżynieria i Ochrona Środowiska": {}
+    "Ekologiczne Źródła Energii": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Geofizyka": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Geoinformatyka": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Geologia Stosowana": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Geoturystyka": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Inżynieria i Analiza Danych": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Inżynieria i Ochrona Środowiska": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    }
   },
   "Wydział Geodezji Górniczej i Inżynierii Środowiska": {
-    "Geodezja i Kartografia": {},
-    "Geoinformacja": {},
-    "Inżynieria i Monitoring Środowiska": {}
+    "Geodezja i Kartografia": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia"] 
+    },
+    "Geoinformacja": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia"] 
+    },
+    "Inżynieria i Monitoring Środowiska": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    }
   },
   "Wydział Inżynierii Materiałowej i Ceramiki": {
-    "Ceramika": {},
-    "Chemia Budowlana": {},
-    "Chemia w Kryminalistyce": {},
-    "Inżynieria Materiałowa": {},
-    "Nanoinżynieria Materiałów (kierunek prowadzony wspólnie przez WFiIS oraz WIMiC)": {},
-    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {},
-    "Technologia Chemiczna (kierunek prowadzony z WEiP)": {}
+    "Ceramika": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy"] 
+    },
+    "Chemia Budowlana": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy"] 
+    },
+    "Inżynieria Materiałowa": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Nanoinżynieria Materiałów (kierunek prowadzony wspólnie przez WFiIS oraz WIMiC)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"]
+    },
+    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"]
+    },
+    "Technologia Chemiczna (kierunek prowadzony z WEiP)": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy"] 
+    }
   },
   "Wydział Odlewnictwa": {
-    "Inżynieria Procesów Odlewniczych": {},
-    "Komputerowe Wspomaganie Procesów Inżynierskich": {},
-    "Tworzywa i Technologie Motoryzacyjne": {}
+    "Inżynieria Procesów Odlewniczych": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Komputerowe Wspomaganie Procesów Inżynierskich": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Tworzywa i Technologie Motoryzacyjne": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    }
   },
   "Wydział Metali Nieżelaznych": {
-    "Inżynieria Metali Nieżelaznych": {},
-    "Inżynieria Produkcji i Jakości": {},
-    "Recykling i Metalurgia": {}
+    "Inżynieria Metali Nieżelaznych": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Inżynieria Produkcji i Jakości": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Recykling i Metalurgia": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    }
   },
   "Wydział Wiertnictwa, Nafty i Gazu": {
-    "Geoinżynieria i Górnictwo Otworowe": {},
-    "Inżynieria Naftowa i Gazownicza": {},
-    "Inżynieria Naftowa i Gazownicza – profil praktyczny (studia dualne)": {}
+    "Geoinżynieria i Górnictwo Otworowe": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    },
+    "Inżynieria Naftowa i Gazownicza": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Geografia", "Język obcy" ] 
+    }
   },
   "Wydział Zarządzania": {
-    "Informatyka i Ekonometria": {},
-    "Zarządzanie": {},
-    "Zarządzanie i Inżynieria Produkcji": {}
+    "Informatyka i Ekonometria": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Język obcy"] 
+    },
+    "Zarządzanie": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Język obcy"] 
+    },
+    "Zarządzanie i Inżynieria Produkcji": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Język obcy"] 
+    }
   },
   "Wydział Energetyki i Paliw": {
-    "Energetyka": {},
-    "Energetyka Odnawialna i Zarządzanie Energią": {},
-    "Nowoczesne Technologie Paliwowe": {},
-    "Technologia Chemiczna (kierunek prowadzony z WIMiC)": {}
+    "Energetyka": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"] 
+    },
+    "Energetyka Odnawialna i Zarządzanie Energią": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"] 
+    },
+    "Nowoczesne Technologie Paliwowe": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy"] 
+    },
+    "Technologia Chemiczna (kierunek prowadzony z WIMiC)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia", "Język obcy"]
+    }
   },
   "Wydział Fizyki i Informatyki Stosowanej": {
-    "Fizyka Medyczna": {},
-    "Fizyka Techniczna": {},
-    "Informatyka Stosowana": {},
-    "Mikro- i Nanotechnologie w Biofizyce": {},
-    "Nanoinżynieria Materiałów (kierunek prowadzony wspólnie przez WFiIS oraz WIMiC)": {}
+    "Fizyka Medyczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"] 
+    },
+    "Fizyka Techniczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"] 
+    },
+    "Informatyka Stosowana": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka"] 
+    },
+    "Mikro- i Nanotechnologie w Biofizyce": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka", "Biologia"] 
+    },
+    "Nanoinżynieria Materiałów (kierunek prowadzony wspólnie przez WFiIS oraz WIMiC)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"]
+    }
   },
   "Wydział Matematyki Stosowanej": {
-    "Matematyka": {}
+    "Matematyka": { 
+      "g1": ["Matematyka rozszerzona"], 
+      "g2": ["Matematyka rozszerzona"] 
+    }
   },
   "Wydział Humanistyczny": {
-    "Informatyka Społeczna": {},
-    "Kulturoznawstwo": {},
-    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {},
-    "Socjologia": {}
+    "Informatyka Społeczna": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia", "Filozofia", "Historia", "Historia sztuki", "Język obcy", "Język polski", "Wiedza o społeczeństwie"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia", "Filozofia", "Historia", "Historia sztuki", "Język obcy", "Język polski", "Wiedza o społeczeństwie"] 
+    },
+    "Kulturoznawstwo": { 
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia", "Filozofia", "Historia", "Historia sztuki", "Język obcy", "Język polski", "Wiedza o społeczeństwie"], 
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia", "Filozofia", "Historia", "Historia sztuki", "Język obcy", "Język polski", "Wiedza o społeczeństwie"] 
+    },
+    "Nowoczesne Technologie w Kryminalistyce (kierunek prowadzony wspólnie przez WH, WIEiT, WIMiC)": {
+      "g1": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"],
+      "g2": ["Matematyka rozszerzona", "Fizyka", "Chemia", "Informatyka"]
+    },
+    "Socjologia": { 
+      "g1": [	
+        "Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia", "Filozofia", "Historia", "Historia sztuki", "Język obcy", "Język polski", "Wiedza o społeczeństwie"], 
+      "g2": [	
+        "Matematyka rozszerzona", "Fizyka", "Informatyka", "Geografia", "Filozofia", "Historia", "Historia sztuki", "Język obcy", "Język polski", "Wiedza o społeczeństwie"] 
+    }
   }
 }

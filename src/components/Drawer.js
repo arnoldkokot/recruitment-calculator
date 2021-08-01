@@ -2,17 +2,7 @@ import { SelectMenu, ButtonPrimary } from "@primer/components";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { add } from "../redux/active";
-
-const subjects = [
-  "Matematyka podstawowa",
-  "Matematyka rozszerzona",
-  "Fizyka",
-  "Informatyka",
-  "Chemia",
-  "Biologia",
-  "Język obcy",
-  "Geografia",
-];
+import subjects from "../subjects.json";
 
 export default function Drawer() {
   const [input, setInput] = useState("");
