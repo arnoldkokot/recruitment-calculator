@@ -1,13 +1,13 @@
-import { ActionList, Dialog, TextInput, Box, Text } from "@primer/components";
+import { ActionList, TextInput } from "@primer/components";
 import { SearchIcon, DotIcon } from "@primer/octicons-react";
 import { useState } from "react";
 import fields from "../fields.json";
 import StudyField from "./StudyField";
+import ExtendedInfo from "./ExtendedInfo";
 
 export default function Results() {
   const [input, setInput] = useState("");
   const [dialog, setDialog] = useState({ open: false });
-
   function buildProps(fields, input) {
     const items = [];
     const groups = [];
@@ -26,6 +26,8 @@ export default function Results() {
               setDialog({
                 open: true,
                 field,
+                faculty,
+                rules: fields[faculty][field],
               }),
           });
         }
@@ -47,20 +49,10 @@ export default function Results() {
         width="100%"
         value={input}
         onChange={event => setInput(event.target.value)}
+        placeholder="Wyszukaj kierunek"
       />
       <ActionList {...buildProps(fields, input.toLowerCase())} />
-      {dialog.open ? (
-        <Dialog
-          isOpen={dialog.open}
-          onDismiss={() => setDialog({ open: false })}
-          aria-labelledby="header-id"
-        >
-          <Dialog.Header id="header-id">{dialog.field}</Dialog.Header>
-          <Box p={3}>
-            <Text fontFamily="sans-serif">Some content</Text>
-          </Box>
-        </Dialog>
-      ) : null}
+      {dialog.open ? <ExtendedInfo {...dialog} callback={setDialog} /> : null}
     </>
   );
 }
