@@ -2,19 +2,17 @@ import { Dialog, Box, Heading, Text, CircleBadge } from "@primer/components";
 import { DotIcon } from "@primer/octicons-react";
 import { useSelector } from "react-redux";
 import calculateScore from "../util/calculateScore";
+
 export default function ExtendedInfo(props) {
   const active = useSelector(state => state.active.value);
   const { open, faculty, field, rules, callback } = props;
   const { score, G1_name, G2_name, M } = calculateScore(rules, active);
-  console.log(G1_name, G2_name, M);
 
   const partials = [
     M > 0 ? { name: "Matematyka podstawowa", id: "M" } : null,
     G1_name ? { name: G1_name, id: "G1" } : null,
     G2_name ? { name: G2_name, id: "G2" } : null,
   ].filter(Boolean);
-
-  console.log(partials);
 
   return (
     <Dialog
