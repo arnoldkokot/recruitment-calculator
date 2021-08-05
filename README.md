@@ -6,7 +6,7 @@
   <p align="center">
     A simple and easy to use calculator for students applying to AGH UST
     <br />
-    <a href="https://calc.deithy.me/" target="_blank"><strong>View live »</strong></a>
+    <a href="https://calc.deithy.me/"><strong>View live »</strong></a>
     <br />
     <br />
     <a href="https://github.com/deithy/recruitment-calculator/issues">Report bug</a>
